@@ -26,8 +26,10 @@ python train.py
  > Session().training()
 ```
  * Training loss graph
-<img src = "https://user-images.githubusercontent.com/70457520/184366315-34267b21-d9a1-4633-9649-dcd856121b61.png" width="50%" height="50%">
+ * 
+<img src = "https://github.com/s5unnyjjj/Image-Classification-using-MobileNetV2/assets/70457520/593dd82b-04df-41dc-bb45-43ae0058e887" width="50%" height="50%">
 </br>
+
 
 ## Validation
 ```
