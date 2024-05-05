@@ -7,12 +7,12 @@ import setting
 
 
 def start_training(dir):
-    model = training(data_dir=dir)
+    model = training(data_dir=dir).run()
     return model
 
 
 def start_evaluation(dir, model):
-    evaluation(path=os.path.join(dir, 'val'), model=model)
+    evaluation(path=os.path.join(dir, 'val'), model=model).run()
 
 
 if __name__ == '__main__':
