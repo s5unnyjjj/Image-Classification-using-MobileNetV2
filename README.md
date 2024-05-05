@@ -8,7 +8,6 @@ This project is written code based on mobileNet-v2.
  * Pytorch = 1.7.1</br>
  * Opencv</br>
  * Pillow</br>
- </br>
 
 ## Project Structure </br>
  * train.py: Code to train the mobileNet model
