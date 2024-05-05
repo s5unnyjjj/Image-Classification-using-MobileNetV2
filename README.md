@@ -25,6 +25,9 @@ This project is written code based on mobileNet-v2.
 * Example
 <img src = "https://github.com/s5unnyjjj/Image-Classification-using-MobileNetV2/assets/70457520/051e6342-0466-4362-9550-9f8cf92716b9" width="50%" height="50%">
 
+## Model Summary </br>
+Open the [model_summary.txt](https://github.com/s5unnyjjj/Image-Classification-using-MobileNetV2/blob/master/model_summary.txt)
+
 ## Traininig and Validation </br>
 ```
 python main.py
