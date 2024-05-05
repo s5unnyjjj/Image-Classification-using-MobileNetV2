@@ -15,7 +15,6 @@ This project is written code based on mobileNet-v2.
  * model.py: Build the architecture of MobileNet-v2
  * main.py: Execute the project
  * settting.py: Assign value of various parameters
-</br>
 
 ## Dataset </br>
 * Info: image classification 50 classes
