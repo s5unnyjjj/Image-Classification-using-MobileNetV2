@@ -17,8 +17,13 @@ This project is written code based on mobileNet-v2.
  * settting.py: Assign value of various parameters
 
 ## Dataset </br>
-* Info: image classification 50 classes
+* image classification 50 classes
 * Num of dataset: training(500), validation(50), test(50)
+* Image size 320x320 (RGB 3 channels)
+* Training images are given with corresponding lables
+* Validation and Test images are not given with no label information
+* Example
+<img src = "https://github.com/s5unnyjjj/Image-Classification-using-MobileNetV2/assets/70457520/051e6342-0466-4362-9550-9f8cf92716b9" width="50%" height="50%">
 
 ## Traininig and Validation </br>
 ```
