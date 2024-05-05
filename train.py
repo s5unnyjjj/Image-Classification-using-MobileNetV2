@@ -10,6 +10,7 @@ import time
 import os
 import copy
 import setting
+import torchsummary
 
 class training():
     def __init__(self, data_dir):
@@ -50,6 +51,8 @@ class training():
     def run(self):
         data_loaders = self.preprare_dataset()
         mobileNet_model = MobileNetV2(50).to(self.device)
+
+        #torchsummary.summary(mobileNet_model, (3, 320, 320))
 
         optimizer = optim.SGD(mobileNet_model.parameters(),
                               lr=setting.Learning_rate,
